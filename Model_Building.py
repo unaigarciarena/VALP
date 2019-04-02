@@ -264,7 +264,6 @@ iters = 40000
 for seed in range(475, 501):
 
     print("Seed:" + str(seed))
-    print("plz lern sumthin")
     np.random.seed(seed)
     random.seed(seed)
     tf.set_random_seed(seed)
